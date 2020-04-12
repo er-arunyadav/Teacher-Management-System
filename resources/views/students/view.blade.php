@@ -31,6 +31,7 @@
 				<thead>
 					<tr>
 						<th>Avatar</th>
+						<th>Teacher Assign</th>
 						<th>Name</th>
 						<th>Birthday</th>
 						<th>Gender</th>
@@ -47,6 +48,9 @@
                                                   			width="50" 
                                                   			 />
 								
+							</td>
+							<td>
+								{{$student->teacher->full_name}}
 							</td>
 							<td>
 								{{$student->first_name.' '.$student->last_name}}
