@@ -40,9 +40,17 @@
       <a class="nav-link text-white" href="{{route('students')}}">Students</a>
     </li>
 
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#">|</a>
+    </li>
+    
+   <li class="nav-item">
+      <a class="nav-link text-white" href="{{route('faq')}}">Faq</a>
+    </li>
+
   </ul>
 </nav>
-        <div class="container">
+        <div class="container" id="app">
             <div class="row" style="padding: 5% 0 0 0;">
                 
                
@@ -56,6 +64,7 @@
        
     </div>
 
-
+<script src="{{asset('js/vue.js')}}"></script>
+<script src="{{asset('js/tms.js')}}"></script>
 </body>
 </html>

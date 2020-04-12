@@ -83,3 +83,10 @@ Route::post('student/search/',[
 	'uses' => 'StudentController@search',
 	'as' => 'student.search'
 ]);
+
+// FAQ
+
+Route::get('faq',[
+	'uses' => 'FaqController@index',
+	'as' => 'faq'
+]);
