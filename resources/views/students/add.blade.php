@@ -54,7 +54,7 @@
 
 					<div class="form-group">
 						<label for="">Birthday</label>
-						<input type="text" name="birthdate" class="form-control">
+						<input type="text" name="birthdate" class="form-control" placeholder="1994-11-04">
 					</div>
 
 					<div class="form-group">
